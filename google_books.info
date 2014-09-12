@@ -1,0 +1,11 @@
+name = Google Books
+description = Input filter module returning data from books.google.com
+core = 7.x
+dependencies[] = "google_books_api"
+
+; Information added by Drupal.org packaging script on 2014-07-09
+version = "7.x-2.0"
+core = "7.x"
+project = "google_books"
+datestamp = "1404935336"
+

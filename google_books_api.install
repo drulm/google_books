@@ -1,0 +1,33 @@
+<?php
+/**
+ * @file
+ * Google Books API Install
+ *
+ * Author: Darrell Ulm.
+ *
+ * This is the install code for the API part of the module
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/**
+ * Returns the schema for the google_books module cache.
+ *
+ * @return array
+ *   Returns the database schema.
+ */
+function google_booksapi_schema() {
+  $schema['cache_google_books_api'] = drupal_get_schema_unprocessed('system', 'cache');
+  return $schema;
+}

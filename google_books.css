@@ -1,0 +1,33 @@
+/**
+ * @file
+ * Google Books CSS Drupal 7.0
+ *
+ * @author Darrell Ulm.
+ *
+ * This is the default css file for the google_books filter.
+ *
+ */
+
+.google_books_links {
+  margin-bottom: 8px;
+  text-align: center;
+}
+.google_books_image {
+  margin-bottom: 4px;
+  margin-top: 4px;
+  text-align: center;
+}
+.google_books_title {
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+.google_books_field_name {
+  font-weight: bold;
+}
+.google_books_reader {
+  margin-bottom: 40px;
+  margin-left: 12px;
+  margin-right: 12px;
+  float: right;
+}
